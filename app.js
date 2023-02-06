@@ -4,8 +4,6 @@ var scrollTo = function(identifier, speed) {
         scrollTop: $(identifier).offset().top
     }, speed || 800);
 }
-
-
 $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 0) {
