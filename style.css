@@ -233,6 +233,14 @@ resultados
 .grafico{
     right: 0;
 }
+@media (orientation: portrait){
+    .resultados{
+        grid-template-columns: auto;
+    }
+    .grafico{
+        display: none;
+    }
+}
 
 /* .............................................................. 
 .................................................................
