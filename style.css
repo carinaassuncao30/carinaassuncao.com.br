@@ -85,7 +85,7 @@ whatsapp
 .............................................................. */
 .whatsapp{
     position: fixed;
-    z-index: 99 !important;
+    z-index: 98 !important;
     text-align: right;
     right: 20px;
     bottom: 20px;
@@ -161,8 +161,52 @@ video{
     .video-overlay img{ width: 50%; }
     .menu{
         top: 180px;
+        display: none;
     }
 }
+
+/* .............................................................. 
+.................................................................
+
+bio
+
+.................................................................
+.............................................................. */
+.mobile-menu{
+    position: fixed;
+    opacity: 1;
+    right: 20px;
+    top: 20px;
+    z-index: 99;
+}
+.mobile-menu a{
+    background-color: var(--color1);
+    color: wheat;
+}
+.mobile-menu-content{
+    background-color: var(--color2);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+    padding: 30px;
+}
+.mobile-menu-content h1{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.mobile-menu-content a h1:hover{
+    color: var(--color1);
+}
+.mobile-menu-content p{
+    color: antiquewhite;
+    letter-spacing: 4;
+    font-size: 12px;
+}
+
+
+
+
 
 /* .............................................................. 
 .................................................................
